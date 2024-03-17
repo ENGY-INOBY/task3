@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 30px;
+    border-radius: 5px;
+}
+.slider {
+    width: 750px;
+    height: 350px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+.sliderLine {
+    width: 2250px;
+    height: 350px;
+    display: flex;
+    background: orange;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    border-radius: 5px;
+}
+
+.sliderBack{
+    position: absolute;
+    top: 128px;
+}
+.sliderNext{
+    position: absolute;
+    top: 128px;
+    right: -1px;
+}
+
+nav{
+    position: absolute;
+    bottom: 15px;
+    left: 317px;
+}
+nav.carousel:hover {
+    cursor: default;
+  }
+  nav.carousel input[type=radio] {
+    display: none;
+  }
+  nav.carousel label {
+    display: inline-block;
+    background: #fff;
+    opacity: .5;
+    overflow: hidden;
+    text-indent: -999px;
+    border-radius: 100%;
+    width: 25px;
+    height: 2px;
+    border-radius: 2px;
+  }
+  nav.carousel label:hover {
+    background: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  nav.carousel input:checked + label {
+    background: #fff;
+    opacity: 1;
+    border-radius: 2px;
+  }
+
+
+
