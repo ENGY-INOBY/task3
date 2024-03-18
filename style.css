@@ -42,6 +42,10 @@ nav{
     bottom: 15px;
     left: 317px;
 }
+.carousel{
+}
+
+
 nav.carousel:hover {
     cursor: default;
   }
